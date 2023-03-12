@@ -1,0 +1,17 @@
+.place {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows:
+  [title]minmax(min-content, max-content)
+  [website]minmax(min-content, max-content)
+  [image]minmax(min-content, max-content)
+  [paragraph]minmax(min-content, max-content)
+  [paragraph]minmax(min-content, max-content);
+  grid-template-areas:
+    'title'
+    'website'
+    'image'
+    'paragraph'
+    'paragraph';
+  overflow: hidden;
+}

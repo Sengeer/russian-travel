@@ -1,11 +1,9 @@
-@font-face {
-  src: local('Inter'),
-       url(../../fonts/Inter-Regular.woff2) format('woff2'),
-       url(../../fonts/Inter-Regular.woff) format('woff');
-  font-family: 'Inter';
-  font-style: normal;
-}
-
 .page {
+  max-width: 425px;
+  margin: 0 auto;
+  background-color: #2A2C2F;
   font-family: 'Inter', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }

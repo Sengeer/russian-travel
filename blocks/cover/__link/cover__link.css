@@ -1,0 +1,7 @@
+.cover__link {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 16px;
+  text-decoration: none;
+}

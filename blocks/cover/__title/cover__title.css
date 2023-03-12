@@ -1,0 +1,12 @@
+.cover__title {
+  margin: 0 16px;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+  align-self: end;
+  text-align: center;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  text-align: center;
+  color: #FFFFFF;
+}
