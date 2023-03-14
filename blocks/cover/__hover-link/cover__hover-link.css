@@ -1,7 +1,11 @@
-.cover__link {
+.cover__hover-link {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 16px;
   text-decoration: none;
+}
+
+.cover__hover-link:hover .cover__overlay {
+  background: rgba(42, 44, 47, .8);
 }
