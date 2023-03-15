@@ -1,4 +1,4 @@
-.page {
+.root {
   max-width: 425px;
   margin: 0 auto;
   background-color: #2A2C2F;
@@ -6,4 +6,22 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+}
+
+@media (min-width: 425px) {
+  .root {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 768px) {
+  .root {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .root {
+    max-width: 1280px;
+  }
 }

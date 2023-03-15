@@ -1,17 +1,23 @@
 .place {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows:
-  [title]minmax(min-content, max-content)
-  [website]minmax(min-content, max-content)
-  [image]minmax(min-content, max-content)
-  [paragraph]minmax(min-content, max-content)
-  [paragraph]minmax(min-content, max-content);
+  grid-template-rows: repeat(5, minmax(min-content, max-content));
   grid-template-areas:
-    'title'
-    'website'
-    'image'
-    'paragraph'
-    'paragraph';
+    'place__title'
+    'place__website'
+    'place__image'
+    'place__paragraph'
+    'place__paragraph_two-area';
   overflow: hidden;
 }
+
+@media (min-width: 768px) {
+  .place {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
+    grid-template-areas:
+      'place__title place__website'
+      'place__image place__paragraphs';
+  }
+}
+

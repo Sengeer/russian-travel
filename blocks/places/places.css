@@ -4,3 +4,15 @@
   flex-direction: column;
   gap: 50px 0;
 }
+
+@media (min-width: 768px) {
+  .places {
+    gap: 73px 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .places {
+    gap: 80px 0;
+  }
+}

@@ -1,3 +1,9 @@
 .lead {
   margin: 48px auto 0;
 }
+
+@media (min-width: 1280px) {
+  .lead {
+    margin: 56px auto 0;
+  }
+}

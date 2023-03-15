@@ -1,6 +1,26 @@
 .place__image {
   margin: 0 0 32px 0;
-  max-width: 425px;
   width: 100%;
-  object-fit: cover;
+  grid-area: place__image;
+}
+
+@media (min-width: 768px) {
+  .place__image {
+    margin: 0 24px;
+    width: calc(100% - 2*24px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__image {
+    margin: 0 24px 0 48px;
+    width: calc(100% - 3*24px);
+  }
+}
+
+@media (min-width: 1280px) {
+  .place__image {
+    margin: 0 32px 0 148px;
+    width: calc(100% - 7.5*24px);
+  }
 }

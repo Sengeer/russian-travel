@@ -1,8 +1,22 @@
 .header__lang-link {
-  align-self: center;
+  margin-top: 14px;
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
   text-align: right;
   color: #FFFFFF;
+}
+
+@media (min-width: 425px) {
+  .header__lang-link {
+    margin-top: 16px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header__lang-link {
+    margin-top: 18px;
+  }
 }
