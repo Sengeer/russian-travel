@@ -1,6 +1,8 @@
 .cover__overlay {
+  background: rgba(42, 44, 47, .3);
+  height: 0;
+  padding-bottom: 62.5%;
   grid-column: 1 / span 1;
   grid-row: 1 / span 2;
-  width: 100%;
   transition: 0.3s ease-in-out;
 }

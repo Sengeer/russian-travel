@@ -5,7 +5,6 @@
   font-size: 16px;
   line-height: 163%;
   color: #FFFFFF;
-  grid-area: place__paragraph;
 }
 
 @media (min-width: 768px) {
@@ -18,8 +17,6 @@
 
 @media (min-width: 1024px) {
   .place__paragraph {
-    margin: 0 0 0 8px;
-    padding-bottom: 26.5;
     max-width: 456px;
     font-size: 18px;
   }
@@ -27,7 +24,6 @@
 
 @media (min-width: 1280px) {
   .place__paragraph {
-    margin: 0 0 0 8px;
     padding-bottom: 26px;
     max-width: 484px;
   }

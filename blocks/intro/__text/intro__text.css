@@ -9,14 +9,14 @@
 @media (min-width: 768px) {
   .intro__text {
     margin: 0 24px 33px;
-    max-width: 690px;
-    width: 100%;
   }
 }
 
 @media (min-width: 1024px) {
   .intro__text {
     margin: 0 48px 33px;
+    max-width: 690px;
+    width: 100%;
   }
 }
 

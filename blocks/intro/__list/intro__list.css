@@ -17,6 +17,8 @@
 @media (min-width: 1024px) {
   .intro__list {
     margin: 0 48px;
+    max-width: 690px;
+    width: 100%;
   }
 }
 
