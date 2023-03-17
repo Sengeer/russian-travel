@@ -7,7 +7,6 @@
     'place__website'
     'place__image'
     'place__paragraphs';
-  overflow: hidden;
 }
 
 @media (min-width: 768px) {
