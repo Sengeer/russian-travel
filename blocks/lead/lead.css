@@ -1,5 +1,6 @@
 .lead {
   margin: 48px auto 0;
+  line-height: 0;
 }
 
 @media (min-width: 1280px) {
