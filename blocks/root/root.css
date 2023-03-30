@@ -1,7 +1,10 @@
 .root {
   max-width: 425px;
   margin: 0 auto;
-  background: url('../../images/noise.svg');
+  background-color: #2A2C2F;
+  background-image: url('../../images/noise.png');
+  background-position: 0px 0px;
+  background-size: 200px 200px;
   font-family: 'Inter', 'Arial', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
