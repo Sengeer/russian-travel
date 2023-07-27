@@ -1,12 +1,21 @@
-<h2 align="center">Привет :v:, я <a href="https://vk.com/sergey.polenov/" target="_blank">Сергей</a> поговорим о проекте:</h2>
-<h1 align="center">Путешествия по России</h1>
+<h1 align="center"><a href="https://sengeer.github.io/russian-travel/" target="_blank">Путешествия по России</a></h1>
 
----
+Проект [путешествия по России](https://sengeer.github.io/russian-travel/) - одностраничный сайт, вторая проектная работа, разработана в рамках образовательной программы [Яндекс Практикум](https://practicum.yandex.ru/).
 
-#### Проект [путешествия по России](https://sengeer.github.io/russian-travel/) - одностраничный сайт, то есть лендинг. Сверстан в образовательных целях, с применением HTML и CSS. К проекту применен БЭМ подход веб-разработки, создана файловая структура Nested БЭМ. Реализована адаптивность.
+![Превью проекта](/screenshots/preview.png?raw=true)
 
----
+## Функции проекта
 
-<h2 align="center"><a href="https://sengeer.github.io/russian-travel/" target="_blank">View project \ Посмотреть проект</a></h2>
+- Адаптивная вёрстка с помощью медиа-запросов, чтобы веб-страница выглядела отлично на всех устройствах;
+- Применен БЭМ подход веб-разработки;
+- Создана файловая структура Nested БЭМ;
+- Реализована грид-раскладка;
+## Технологический стек
 
----
+**Клиент:** HTML, CSS, Grid Layout
+
+
+
+## Автор
+
+- [@Sengeer](https://vk.com/sergey.polenov/)
