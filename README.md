@@ -1,8 +1,8 @@
-<h1 align="center"><a href="https://sengeer.github.io/russian-travel/" target="_blank">Путешествия по России</a></h1>
+<h1 align="center">Путешествия по России</h1>
 
 Проект [путешествия по России](https://sengeer.github.io/russian-travel/) - это вторая проектная работа, одностраничный сайт, разработан в рамках образовательной программы [Яндекс Практикум](https://practicum.yandex.ru/).
 
-![Превью проекта](/screenshots/preview.png?raw=true)
+![2023-07-27_14-18-19](https://github.com/Sengeer/russian-travel/assets/63221404/ea57de9e-2e3a-4fa3-bb18-1c0be8458d4f)
 
 ## Функции проекта
 
