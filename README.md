@@ -12,7 +12,7 @@
 - Реализована грид-раскладка;
 ## Технологический стек
 
-**Front-end:** HTML, CSS, Grid Layout
+**Front-end:** HTML, CSS
 
 
 
